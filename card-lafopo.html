@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card1 {
+            width: 150px;
+            height: 150px;
+            background: rgb(147, 114, 224);
+            border-radius: 80px;
+            overflow: hidden;
+            position: absolute;
+            top: calc(100% - 300px);
+            left: calc(50% - 75px);
+        }
+        .card1 img {
+            width: 100%;
+            position: relative;
+            top: calc(100% - 185px);
+            left: calc(50% - 75px);
+        }
+        .card {
+            width: 400px;
+            height: 700px;
+            background: rgb(235, 178, 88);
+            border-radius: 20px;
+            overflow: hidden;
+            background-position: center;
+            position: relative;
+        }
+        .card img {
+            width: 100%;
+        }
+        .card p {
+            text-align: center;
+        }
+        .card p:nth-child(3) {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/3214995/pexels-photo-3214995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="ciudad">
+            <p>LAUREANO FORERO PORRAS</p>
+            <p>Arquitecto</p>
+            <div class="card1">
+                <img src="lafopo1.jpg" alt="lafopo">
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
